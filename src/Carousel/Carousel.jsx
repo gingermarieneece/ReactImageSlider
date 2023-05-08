@@ -2,8 +2,8 @@ import React from 'react'
 
 
 
-import bgdonut1 from './image/bg-donut-1.png'
-import bgdonut2 from './image/bg-donut-2.png'
+import flower1 from './image/flower-1.png'
+import flower2 from './image/flower-2.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, EffectCoverflow, Autoplay } from 'swiper'
@@ -15,30 +15,30 @@ import './Carousel.css'
 
 const slider = [
     {
-        title: "Donut 1",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1612240498936-65f5101365d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        title: "Orchid",
+        description: "Orchids are plants that belong to the family Orchidaceae, a diverse and widespread group of flowering plants with blooms that are often colourful and fragrant. Orchidaceae is one of the two largest families of flowering plants, along with the Asteraceae.",
+        url: "https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSbywUFuXvFMZ1dqCi--Qc4bjlee40_0qvyaggtR1fWqbMQtsT7GfjWZj4oeOf5lRNq"
       },
       {
-        title: "Donut 2",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+        title: "Hydrangea",
+        description: "Hydrangea, commonly named the hortensia, is a genus of more than 75 species of flowering plants native to Asia and the Americas. By far the greatest species diversity is in eastern Asia, notably China, Korea, and Japan.",
+        url: "https://www.whiteflowerfarm.com/mas_assets/cache/image/6/3/d/1/25553.Jpg"
       },
       {
-        title: "Donut 3",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1646615077267-97c6088b74d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80"
+        title: "Lily",
+        description: "Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. They are the true lilies. Lilies are a group of flowering plants which are important in culture and literature in much of the world.",
+        url: "https://www.atozflowers.com/wp-content/uploads/2017/11/Lilium_Eyeliner_05.jpg"
       },
     
       {
-        title: "Donut 4",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1631397833242-fc6213046352?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        title: "Tulip",
+        description: "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white. They often have a different coloured blotch at the base of the tepals, internally.",
+        url: "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTnuMdz8NbpO5c-FxH1BFE1_Z-RkIzBetqjYH7ySXAZ9S07lIqxN2yiN_9QO2dLn5aG"
       },
       {
-        title: "Donut 5",
-        description: "Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.",
-        url: "https://images.unsplash.com/photo-1533137138-ba67dc90d752?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        title: "Chrysanthemum",
+        description: "Chrysanthemums, sometimes called mums or chrysanths, are flowering plants of the genus Chrysanthemum in the family Asteraceae. They are native to East Asia and northeastern Europe. Most species originate from East Asia and the center of diversity is in China. Countless horticultural varieties and cultivars exist.",
+        url: "https://cdn.britannica.com/09/174809-050-CA9F8F8C/daisy-mums-ray-flowers-disk-centre.jpg"
       },
 ]
 
@@ -48,10 +48,8 @@ const Carousel = () => {
         <div>
             <div className='carousel-content'>
                 <span>discover</span>
-                <h1>Sweet Donut Heaven</h1>
+                <h1>React Image Slider - Swiper Framework</h1>
                 <hr />
-                <p>Our Donut Collection Offers a Mouthwatering Array of Flavors, Toppings, and Shapes for Every Craving and Occasion.</p>
-                <a href="#" className='slider-btn'>download app</a>
             </div>
         </div>
 
@@ -104,8 +102,8 @@ const Carousel = () => {
             }
         </Swiper>
 
-        <img src={bgdonut1} alt="bg image" className='bgdonut1' />
-        <img src={bgdonut2} alt="bg image" className='bgdonut2' />
+        <img src={flower1} alt="bg image" className='flower1' />
+        <img src={flower2} alt="bg image" className='flower2' />
     </div>
   )
 }

@@ -71,15 +71,15 @@
     color: #00a4aa;
 }
 
-.bgdonut1 {
+.flower1 {
     position: fixed;
     top: 0;
-    left: -8rem;
+    left: -4rem;
     z-index: -1;
     opacity: 0.2;
 }
 
-.bgdonut2 {
+.flower2 {
     position: fixed;
     bottom: -2rem;
     right: -3rem;
