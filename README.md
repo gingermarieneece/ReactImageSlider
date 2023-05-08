@@ -1,1 +1,3 @@
 # ReactImageSlider
+
+React Image Slider
