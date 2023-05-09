@@ -1,0 +1,3 @@
+[submodule "ReactImageSlider"]
+	path = ReactImageSlider
+	url = https://github.com/gingermarieneece/ReactImageSlider.git
