@@ -2,7 +2,7 @@
   "name": "react-slider",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gingermarieneece.github.io/ReactImageSlider",
+  "homepage": "https://gingermarieneece.github.io/ReactImageSlider/",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d build",
