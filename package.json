@@ -2,7 +2,7 @@
   "name": "react-slider",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gingermarieneece.github.io/ReactImageSlider/",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d build",
@@ -16,6 +16,7 @@
     "homebrew": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
     "react-scripts": "^5.0.1",
     "swiper": "^9.1.0",
     "xcode": "^3.0.1",
