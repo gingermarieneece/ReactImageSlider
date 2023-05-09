@@ -4,11 +4,11 @@ import __vite__cjsImport2_reactDom_client from "/node_modules/.vite/deps/react-d
 import App from "/src/App.jsx?t=1683570673482";
 import "/src/index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxDEV(React.StrictMode, { children: /* @__PURE__ */ jsxDEV(App, {}, void 0, false, {
-  fileName: "/Users/gingermarie/Documents/MY_REACT_PORTFOLIO/ReactImageSlider/src/index.jsx",
+  fileName: "/Users/gingermarie/Documents/MY_REACT_PORTFOLIO/ReactImageSlider/src/index.js",
   lineNumber: 6,
   columnNumber: 5
 }, this) }, void 0, false, {
-  fileName: "/Users/gingermarie/Documents/MY_REACT_PORTFOLIO/ReactImageSlider/src/index.jsx",
+  fileName: "/Users/gingermarie/Documents/MY_REACT_PORTFOLIO/ReactImageSlider/src/index.js",
   lineNumber: 5,
   columnNumber: 61
 }, this));
